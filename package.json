@@ -1,0 +1,45 @@
+{
+	"name": "most-nuxt4",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"lint": "npm run lint:eslint && npm run lint:prettier",
+		"lint:eslint": "eslint .",
+		"lint:prettier": "prettier . --check",
+		"lintfix": "eslint . --fix && prettier --write --list-different ."
+	},
+	"overrides": {
+		"vue": "latest"
+	},
+	"dependencies": {
+		"@nuxt/fonts": "^0.8.0",
+		"@pinia/nuxt": "^0.5.4",
+		"@vueuse/core": "^11.1.0",
+		"class-variance-authority": "^0.7.0",
+		"clsx": "^2.1.1",
+		"embla-carousel-vue": "^8.3.0",
+		"lucide-vue-next": "^0.441.0",
+		"nuxt": "^3.13.0",
+		"nuxt-viewport": "^2.1.6",
+		"radix-vue": "^1.9.5",
+		"tailwind-merge": "^2.5.2",
+		"tailwindcss-animate": "^1.0.7",
+		"vue": "latest",
+		"vue-router": "latest"
+	},
+	"devDependencies": {
+		"@nuxt/eslint": "^0.5.7",
+		"@nuxtjs/tailwindcss": "^6.12.1",
+		"eslint": "^9.10.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.2.1",
+		"prettier": "^3.3.3",
+		"typescript": "^5.6.2",
+		"vue-tsc": "~2.1.6"
+	}
+}

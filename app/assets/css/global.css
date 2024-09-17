@@ -1,0 +1,17 @@
+body {
+	min-width: 320px;
+	height: 100dvh;
+	width: 100%;
+	overflow-x: hidden;
+	font-family: "Onest", sans-serif;
+}
+
+.l-wrapper {
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0 34px;
+}
+
+.anim {
+	transition: all 0.4s ease;
+}
